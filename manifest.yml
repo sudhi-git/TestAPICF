@@ -1,0 +1,6 @@
+applications:
+- name: apiServicei033516
+memory: 1024M
+instances: 1
+path: target/testService-0.0.1-SNAPSHOT.jar
+buildpack: https://gh.com/cf/java-buildpack.git#v3.0
